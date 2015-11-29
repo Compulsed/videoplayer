@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html ng-app="videoPlayer" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Video Player</title>
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/app.css" media="screen" title="no title" charset="utf-8">
+
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+    <script type="text/javascript" src="scripts/videoplayer.js"></script>
+    <script type="text/javascript" src="scripts/layout.controller.js"></script>
+    <script type="text/javascript" src="scripts/home.controller.js"></script>
+    <script type="text/javascript" src="scripts/fun.controller.js"></script>
+    <script type="text/javascript" src="scripts/side.controller.js"></script>
+    <script type="text/javascript" src="scripts/content.controller.js"></script>
+    <script type="text/javascript" src="scripts/app.controller.js"></script>
+
+
+    <script type="text/javascript" src="scripts/home.router.js"></script>
+
+  </head>
+  <body>
+    <!-- layout.html -->
+    <div ui-view></div>
+  </body>
+</html>

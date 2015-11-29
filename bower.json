@@ -1,0 +1,25 @@
+{
+  "name": "videoplayer",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Dale Salter <djsalter93@hotmail.com>"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.11.1",
+    "bootstrap": "~3.3.6",
+    "angular-ui-router": "~0.2.15",
+    "angular": "~1.4.8",
+    "videogular": "~1.3.2"
+  }
+}
