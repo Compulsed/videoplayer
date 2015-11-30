@@ -79,10 +79,7 @@ videoPlayer.config(function($stateProvider, $urlRouterProvider, $locationProvide
       url: '/:videoID',
       views: {
         'video-player': {
-          controller: function($scope, $stateParams) {
-            console.log($stateParams.videoID);
-            $scope.videoID = $stateParams.videoID;
-          },
+          controller: 'AppVideoContentVidController',
           templateUrl: 'partials/app.video.content.vid.html',
         },
       },
